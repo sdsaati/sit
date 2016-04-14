@@ -1,0 +1,673 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html dir="rtl" lang="en">
+ <!--<![endif]-->
+<head>
+    <title>@ViewBag.Title | By TurboSofts</title>
+    <!-- Meta -->
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--&lt;!&ndash; Web Fonts &ndash;&gt;-->
+    <!--<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>-->
+    <!-- CSS Global Compulsory -->
+    <!-- CSS Header and Footer -->
+    <!-- CSS Implementing Plugins -->
+    @Styles.Render("~/Sitaad/GlobalCSS", "~/Sitaad/HeaderFooterCSS", "~/Sitaad/ImplementingPluginsCSS")
+    <!--@Styles.Render("~/Sitaad/owlCSS")-->
+    <!--[if lt IE 9]>
+    @{var IE9 = BundleTable.Bundles.ResolveBundleUrl("~/Sitaad/IE9CSS", true);}
+    <link href="@IE9" rel="stylesheet" type="text/css" media="screen" />
+    <![endif]-->
+    <!-- Style Switcher -->
+    <!--@Styles.Render("~/Sitaad/StyleSwitcherCSS")-->
+    <!-- CSS Theme -->
+    <!-- RTL Customization -->
+    <!-- CSS Customization -->
+    @Styles.Render("~/Sitaad/TurbosoftsCSS", "~/Sitaad/ThemeCSS", "~/Sitaad/RTLCustomizationCSS", "~/Sitaad/CustomizationCSS")
+</head>
+<body id="totop" class="header-fixed">
+    <div class="turbosoftsmain">
+        <div class="wrapper page-option-v1">
+            <!--=== Header ===-->
+            <div class="header header-sticky">
+                <div class="container">
+                    <!-- Logo -->
+                    <div class="page-scroll">
+                        <a class="logo pull-left" href="#totop">
+                            <img class="logoimg" src="/Content/Sitaad/img/logo1-default.png" alt="Logo">
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                    <!-- Topbar -->
+                    <!--<div class="topbar">-->
+                    <!--<ul class="loginbar pull-right">-->
+                    <!--<li class="hoverSelector">-->
+                    <!--<i class="fa fa-globe"></i>-->
+                    <!--<a>انتخاب زبان</a>-->
+                    <!--<ul class="languages hoverSelectorBlock">-->
+                    <!--<li class="active">-->
+                    <!--<a href="#">فارسی<i class="fa fa-check"></i></a>-->
+                    <!--</li>-->
+                    <!--<li><a href="#">English</a></li>-->
+                    <!--</ul>-->
+                    <!--</li>-->
+                    <!--<li class="topbar-devider"></li>   -->
+                    <!--<li><a href="#">پشتیبانی</a></li>-->
+                    <!--<li class="topbar-devider"></li>   -->
+                    <!--<li><a href="#">ورود به سایت</a></li>-->
+                    <!--</ul>-->
+                    <!--</div>-->
+                    <!-- End Topbar -->
+                    <!-- Toggle get grouped for better mobile display -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse" style="margin-top:50px; ">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <!-- End Toggle -->
+                </div><!--/end container-->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+                    <div class="container">
+                        <img src="/Content/Sitaad/img/logotext.png" alt="Logotext" class="logotext">
+                        <ul class="nav navbar-nav">
+                            <!-- Home -->
+                            <li class="dropdown active">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                    درباره سیتاد
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="page-scroll"><a href="#aboutsitad">سیتاد در یک نگاه</a></li>
+                                    <!-- One Page -->
+                                    <li class="dropdown-submenu">
+                                        <a href="javascript:void(0);">چرا خدمات سیتاد</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a target="_blank" href="#">1</a></li>
+                                            <li><a target="_blank" href="#">2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- End One Page -->
+                                    <!--UI  -->
+                                    <li>
+                                        <a href="#">ساختار سازمانی</a>
+                                    </li>
+                                    <!-- End UI -->
+                                </ul>
+                            </li>
+                            <!-- End Home -->
+                            <!-- Pages -->
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                    خدمات سیتاد
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- About Pages -->
+                                    <li class="dropdown-submenu">
+                                        <a href="item1.html">سامانه مکاتبات اداری</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- End About Pages -->
+                                    <li><a href="#">سامانه استعلام</a></li>
+                                    <!-- End Invoice Page -->
+                                    <!-- Clients Page -->
+                                    <li><a href="#">سامانه های تبادل</a></li>
+                                    <!-- End Clients Page -->
+                                    <!-- Column Pages -->
+                                    <li><a href="#">داده های بین سازمانی</a></li>
+
+                                </ul>
+                            </li>
+                            <!-- End Pages -->
+                            <!-- Blog -->
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                    راه کارها
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                </ul>
+                            </li>
+                            <!-- End Blog -->
+                            <!-- Features -->
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                    پشتیبانی فنی
+                                </a>
+                                <ul class="dropdown-menu">
+
+                                    <li><a href="#">مستندات فنی </a></li>
+                                    <li><a href="#">مستندات آموزشی </a></li>
+                                    <li><a href="#">مقاله ها</a></li>
+                                </ul>
+                            </li>
+                            <!-- End Features -->
+                            <!-- Features -->
+                            <li class="page-scroll">
+                                <a href="#contactus">
+                                    تماس با ما
+                                </a>
+                                <!--<ul class="dropdown-menu">-->
+                                <!--<li><a href="#">آدرس شرکت</a></li>-->
+                                <!--<li><a href="#"></a></li>-->
+                                <!--<li><a href="#">مقاله ها</a></li>-->
+                                <!--</ul>-->
+                            </li>
+                            <!-- End Features -->
+                            <!-- Shortcodes -->
+                            <li class="dropdown mega-menu-fullwidth">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                    در یک نگاه
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="mega-menu-content disable-icons">
+                                            <div class="container">
+
+                                                <div class="row equal-height">
+                                                    <div class="col-md-3 equal-height-in">
+                                                        <ul class="list-unstyled equal-height-list">
+                                                            <li><h3>قسمت یک</h3></li>
+                                                            <!-- Typography -->
+                                                            <li><a href="#"><i class="fa fa-sort-alpha-asc"></i> 1</a></li>
+                                                            <!-- End Typography -->
+                                                            <!-- Components -->
+                                                            <li><a href="#"><i class="fa fa-comment"></i> 2</a></li>
+                                                            <!-- End Components -->
+                                                        </ul>
+                                                    </div>
+                                                    <!-- ------------------------------------------------------------- -->
+                                                    <div class="col-md-3 equal-height-in">
+                                                        <ul class="list-unstyled equal-height-list">
+                                                            <li><h3>قسمت دوم</h3></li>
+
+                                                            <!-- Buttons -->
+                                                            <li><a href="#"><i class="fa fa-flask"></i> 1</a></li>
+                                                            <!-- End Buttons -->
+                                                            <!-- Icons -->
+                                                            <li><a href="#"><i class="fa fa-chevron-circle-right"></i>2</a></li>
+                                                            <!-- End Icons -->
+                                                        </ul>
+                                                    </div>
+                                                    <!-- ------------------------------------------------------------- -->
+                                                    <div class="col-md-3 equal-height-in">
+                                                        <ul class="list-unstyled equal-height-list">
+                                                            <li><h3>قسمت سوم</h3></li>
+                                                            <!-- Content Boxes -->
+                                                            <li><a href="#"><i class="fa fa-cog"></i> 1</a></li>
+                                                            <li><a href="#"><i class="fa fa-align-center"></i> 2</a></li>
+                                                            <!-- End Common Elements -->
+                                                        </ul>
+                                                    </div>
+                                                    <!-- ------------------------------------------------------------- -->
+                                                    <div class="col-md-3 equal-height-in">
+                                                        <ul class="list-unstyled equal-height-list">
+                                                            <li><h3>قسمت چهارم</h3></li>
+                                                            <!-- Forms -->
+                                                            <li><a href="#"><i class="fa fa-bars"></i> 1</a></li>
+                                                            <li><a href="#"><i class="fa fa-bars"></i> 2</a></li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- End Shortcodes -->
+                            <!-- Search Block -->
+                            <!--<li>-->
+                            <!--<i class="search fa fa-search search-btn"></i>-->
+                            <!--<div class="search-open">-->
+                            <!--<div class="input-group animated fadeInDown">-->
+                            <!--<input type="text" class="form-control" placeholder="جستجو">-->
+                            <!--<span class="input-group-btn">-->
+                            <!--<button class="btn-u" type="button">برو</button>-->
+                            <!--</span>-->
+                            <!--</div>-->
+                            <!--</div>    -->
+                            <!--</li>-->
+                            <!-- End Search Block -->
+
+                        </ul>
+
+                        <!-- Topbar -->
+                        <div class="topbar ">
+                            <ul class="loginbar pull-left">
+                                <li class="hoverSelector">
+                                <li><a style="margin-right: 10px;" href="#">ورود به سایت</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Topbar -->
+                    </div><!--/end container-->
+                </div><!--/navbar-collapse-->
+            </div>
+            <!--=== End Header ===-->
+            <div class="row">
+                <!--=== Slider ===-->
+                <div class="tp-banner-container" style="padding:0; ">
+                    <div class="tp-banner">
+                        <ul>
+                            <!-- SLIDE -->
+                            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
+                                <!-- MAIN IMAGE -->
+                                <img src="/Content/images/BG/bg1.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                                <!--<div class="tp-caption revolution-ch1 sft start"-->
+                                <!--data-x="center"-->
+                                <!--data-hoffset="0"-->
+                                <!--data-y="100"-->
+                                <!--data-speed="1500"-->
+                                <!--data-start="500"-->
+                                <!--data-easing="Back.easeInOut"-->
+                                <!--data-endeasing="Power1.easeIn"-->
+                                <!--data-endspeed="300">-->
+                                <!--سامانه یکپارچه تبادل اطلاعات دانا-->
+                                <!--</div>-->
+                                <!--&lt;!&ndash; LAYER &ndash;&gt;-->
+                                <!--<div class="tp-caption revolution-ch2 sft"-->
+                                <!--data-x="center"-->
+                                <!--data-hoffset="0"-->
+                                <!--data-y="190"-->
+                                <!--data-speed="1400"-->
+                                <!--data-start="2000"-->
+                                <!--data-easing="Power4.easeOut"-->
+                                <!--data-endspeed="300"-->
+                                <!--data-endeasing="Power1.easeIn"-->
+                                <!--data-captionhidden="off"-->
+                                <!--style="z-index: 6">-->
+                                <!--تعاملات الکترونیک دولت                     </div>-->
+                                <!--&lt;!&ndash; LAYER &ndash;&gt;-->
+                                <!--<div class="tp-caption sft"-->
+                                <!--data-x="center"-->
+                                <!--data-hoffset="0"-->
+                                <!--data-y="310"-->
+                                <!--data-speed="1600"-->
+                                <!--data-start="2800"-->
+                                <!--data-easing="Power4.easeOut"-->
+                                <!--data-endspeed="300"-->
+                                <!--data-endeasing="Power1.easeIn"-->
+                                <!--data-captionhidden="off"-->
+                                <!--style="z-index: 6">-->
+                                <!--<a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">اطلاعات بیشتر</a>-->
+                                <!--<a href="#" class="btn-u">کلیک کنید </a>-->
+                                <!--</div>-->
+                            </li>
+                            <!-- END SLIDE -->
+                            <!-- SLIDE -->
+                            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
+                                <!-- MAIN IMAGE -->
+                                <img src="/Content/Sitaad/img/sliders/bg2.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                                <div class="tp-caption revolution-ch1 sft start"
+                                     data-x="center"
+                                     data-hoffset="0"
+                                     data-y="100"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="Back.easeInOut"
+                                     data-endeasing="Power1.easeIn"
+                                     data-endspeed="300">
+                                    سامانه یکپارچه تبادل اطلاعات دانا
+                                </div>
+                                <!-- LAYER -->
+                                <div class="tp-caption revolution-ch2 sft"
+                                     data-x="center"
+                                     data-hoffset="0"
+                                     data-y="190"
+                                     data-speed="1400"
+                                     data-start="2000"
+                                     data-easing="Power4.easeOut"
+                                     data-endspeed="300"
+                                     data-endeasing="Power1.easeIn"
+                                     data-captionhidden="off"
+                                     style="z-index: 6">
+                                    تعاملات الکترونیک دولت                     <br />
+                                    قسمت دوم
+                                </div>
+                                <!-- LAYER -->
+                                <div class="tp-caption sft"
+                                     data-x="center"
+                                     data-hoffset="0"
+                                     data-y="310"
+                                     data-speed="1600"
+                                     data-start="2800"
+                                     data-easing="Power4.easeOut"
+                                     data-endspeed="300"
+                                     data-endeasing="Power1.easeIn"
+                                     data-captionhidden="off"
+                                     style="z-index: 6">
+                                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">اطلاعات بیشتر </a>
+                                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">کلیک کنید </a>
+                                </div>
+                            </li>
+                            <!-- END SLIDE -->
+
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom"></div>
+                    </div>
+                </div>
+                <!--=== End Slider ===-->
+
+                <div class="sidelinksright">
+                    <div id="slidecontent">
+                        <button class="btn-u btn-u-sm rounded btn-u-dark-blue" type="button">لینک ۱ </button>
+                        <button class="btn-u btn-u-sm rounded btn-u-aqua" type="button">لینک ۲ </button>
+                        <button class="btn-u btn-u-sm rounded btn-u-dark-blue" type="button">لینک ۳ </button>
+                        <button class="btn-u btn-u-sm rounded btn-u-aqua" type="button">لینک ۴ </button>
+                        <button class="btn-u btn-u-sm rounded btn-u-dark-blue" type="button">لینک ۵</button>
+                        <button class="btn-u btn-u-sm rounded btn-u-aqua" type="button">لینک ۶</button>
+                    </div>
+                    <div id="linkha">
+                        <div class="rotatets">
+                            <span id="rightlinkstext">
+                                لینک های مرتبط
+
+                            </span>
+                        </div>
+                        <span class="fa fa-2x fa-link" id="rightlinkslogo">
+                        </span>
+                    </div>
+
+                </div>
+                <div class="sidelinksleft">
+                    <button class="btn-u btn-u-lg rounded " type="button"><img src="/Content/images/support.png"></button>
+                    <button class="btn-u btn-u-lg rounded " type="button"><img src="/Content/images/tools.png"></button>
+                </div>
+            </div>
+            <div class="row" id="aboutsitad">
+                <div class="News row">
+                    <div class="col-sm-1 hidden-sm hidden-xs"> <span class="Title "><a href="archive.html"><span>اخبار سایت</span></a></span></div>
+                    <div class="NewsDiv col-sm-10 col-xs-10"><div class="text"><span class="Type_News" lang="fa"></span></div></div>
+                    <div class="col-xs-1 col-md-offset-0 col-xs-offset-1 "> <a href="archive.html"> <button class="newsarchive btn btn-u btn-brd btn-brd-hover btn-u-light"> <span>آرشیو اخبار</span></button></a></div>
+                </div>
+            </div>
+            <div style="margin:0 auto 50px auto; ">
+
+                <div class="row Download ">
+                    <div class=" col-centered DownloadBox DownloadBox1">
+                        <div class="service-bg"></div>
+                        <a>
+                            <div class="row">
+                                <div class="DownloadLogo col-xs-3"><img src="/Content/images/Icon/ico2.png" alt="1"></div>
+                                <div class="DownloadText col-xs-8"><h2>دولت الکترونیک</h2> </div>
+                            </div>
+                            <div class="Clear"></div>
+                        </a>
+                    </div>
+                    <div class=" col-centered DownloadBox DownloadBox2">
+                        <div class="service-bg"></div>
+                        <a>
+                            <div class="row">
+                                <div class="DownloadLogo col-xs-3"><img src="/Content/images/Icon/ico3.png" alt="2"></div>
+                                <div class="DownloadText col-xs-8"><h2>تبادل داده های بین سازمانی</h2></div>
+                            </div>
+                            <div class="Clear"></div>
+                        </a>
+                    </div>
+                    <div class=" col-centered DownloadBox DownloadBox3">
+                        <div class="service-bg"></div>
+                        <a>
+                            <div class="row">
+                                <div class="DownloadLogo col-xs-3"><img src="/Content/images/Icon/ico1.png" alt="3"></div>
+                                <div class="DownloadText col-xs-8"><h2>سامانه های مکاتبات اداری</h2></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="Clear"></div>
+                </div>
+                <div id="khadamatcontainer" class="row">
+                    <div id="dolat" class="col-xs-10 col-xs-offset-1 hide">
+                        <div style="display: block;">
+                            <h2>دولت الکترونیک</h2>
+                            <div class="col-xs-12">
+                                <p>
+                                    این سرویس در حال حاضر بر اساس مکانیزم پست الکترونیکی در حال انجام است که غیر برخط بودن آن عاملی برای امتیاز کم آن و جایگزینی آن می باشد.
+                                    ارزش این سرویس، تسهیل در ارتباطات بین دستگاه ها است و هدف آن است که دستگاه ها صرفاً استفاده کننده باشند و به هیچ عنوان درگیر مباحث فنی آن نباشند.
+                                </p>
+                                <p>به منظور تبادل نامه ها در سامانه سیتاد از پروتکل ECE برای تبادل پیام بین نرم افزارهای اتوماسیون اداری داخل کشور می توان استفاده نمود.که در این رابطه سازمان نظام صنفی در تلاش برای فراگیری نسخه 2 این پروتکل بین محصولات شرکت های ایرانی است.</p>
+                            </div>
+                            <div class="Clear"></div>
+                        </div><!-- /.inner -->
+                    </div>
+                    <div id="sazman" class="col-xs-10 col-xs-offset-1 hide">
+                        <div style="display: block;">
+                            <h2>تبادل داده های بین سازمانی</h2>
+                            <div class="col-xs-12">
+                                <p>
+                                    این سرویس در حال حاضر بر اساس مکانیزم پست الکترونیکی در حال انجام است که غیر برخط بودن آن عاملی برای امتیاز کم آن و جایگزینی آن می باشد.
+                                    ارزش این سرویس، تسهیل در ارتباطات بین دستگاه ها است و هدف آن است که دستگاه ها صرفاً استفاده کننده باشند و به هیچ عنوان درگیر مباحث فنی آن نباشند.
+                                </p>
+                                <p>به منظور تبادل نامه ها در سامانه سیتاد از پروتکل ECE برای تبادل پیام بین نرم افزارهای اتوماسیون اداری داخل کشور می توان استفاده نمود.که در این رابطه سازمان نظام صنفی در تلاش برای فراگیری نسخه 2 این پروتکل بین محصولات شرکت های ایرانی است.</p>
+                            </div>
+                            <div class="Clear"></div>
+                        </div><!-- /.inner -->
+                    </div>
+                    <div id="mokatebe" class="col-xs-10 col-xs-offset-1 hide">
+                        <div style="display: block;">
+                            <h2>سامانه های مکاتبات اداری</h2>
+                            <div class="col-xs-12">
+                                <p>
+                                    این سرویس در حال حاضر بر اساس مکانیزم پست الکترونیکی در حال انجام است که غیر برخط بودن آن عاملی برای امتیاز کم آن و جایگزینی آن می باشد.
+                                    ارزش این سرویس، تسهیل در ارتباطات بین دستگاه ها است و هدف آن است که دستگاه ها صرفاً استفاده کننده باشند و به هیچ عنوان درگیر مباحث فنی آن نباشند.
+                                </p>
+                                <p>به منظور تبادل نامه ها در سامانه سیتاد از پروتکل ECE برای تبادل پیام بین نرم افزارهای اتوماسیون اداری داخل کشور می توان استفاده نمود.که در این رابطه سازمان نظام صنفی در تلاش برای فراگیری نسخه 2 این پروتکل بین محصولات شرکت های ایرانی است.</p>
+                            </div>
+                            <div class="Clear"></div>
+                        </div><!-- /.inner -->
+                    </div>
+                </div>
+                <div class="row">
+                    <!--@RenderBody()-->
+                <div class="col-md-10 col-md-offset-1 col-xs-12">
+                    <h2 class="title-v2">خدمات سیتاد</h2>
+                    <p class="col-md-12">
+                        سامانه سیتاد مقرر است به کلیه دستگاه های مورد نیاز خدمات مورد نظر را بر روی شبکه دولت ارایه نماید
+                        آنچه  مد نظر می باشد، ایجاد یک اپراتور  ارایه خدمات تبادل پیام بر روی بستر شبکه دولت است. این تبادل بین دستگاه ها باید به صورت افقی و عمودی باشند. مهمترین خدمات قابل ارائه با استفاده از شبکه دولت و سامانه سیتاد را می توان به شرح ذیل عنوان نمود:
+
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div style="position: relative; margin:16px auto 0 auto; ">
+            <div class="row" style="background-color: #F9FDFF; margin:0; padding:50px 0;">
+                <div class="col-md-6 col-md-offset-1 col-sm-12">
+                    <h2 class="title-v2">سیتاد در یک نگاه</h2>
+                    <p>
+                        شرکت سیتاد به عنوان گذرگاه الکترونیکی جهت ارتباط بین دستگاه های دولتی و ارائه دهنده خدمات دولتی به بخش های مختلف نقش اپراتوری را بر عهده دارد و هدف عمده آن برقراری ارتباطات G2G بین سازمان های دولتی و سامانه های آنها می باشد. بدین ترتیب مهم ترین ارزش افزوده سیتاد ارتباط System to System است.
+                        شرکت سیتاد در واقع یک اپراتور ارائه دهنده خدمت است که خدمات زیر را ارائه می دهد:
+                    </p>
+                    <ul>
+                        <li>
+                            ارائه خدمات دولتی مانند خدمات پست، ثبت احوال و ... که خدمات آنها از طریق زیرساخت سیتاد در اختیار سازمان های مختلف قرار می گیرد
+                        </li>
+                        <li>
+                            واسط ارتباطی بین سازمان یا نهادهای دولتی به منظور تبادل ارتباط و تبادل داده
+                        </li>
+                    </ul>
+                    <p>
+                        اپراتور سیتاد داده های سامانه های اطلاعاتی مختلف را در یک ابر اطلاعات قرار خواهد داد و سازمان های دولتی مختلف از طریق این ابر به یکدیگر متصل خواهند شد و تبادل داده از طریق زیرساخت این ابر انجام می-شود. خدمات مختلفی مانند سرویس مکاتبات اداری، سرویس ثبت احوال، سرویس دریافت ترازهای مالی از نهادهای دولتی و ... از طریق این زیرساخت تبادل می گردد
+                    </p>
+                    <p>
+                        در حال حاضر خدمات سیتاد شامل مشتریان (صاحبان سرویس)، کاربران (استفاده کنندگان سرویس) استانداردهای ارائه خدمات مختلف، کارفرمای بالادستی (نهاد ریاست جمهوری) و زیرساخت مخابراتی ارائه سرویس (شبکه دولت با اپراتوری نهاد ریاست جمهوری) است
+                    </p>
+                    <br>
+                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">ادامه مطلب</a>
+                    <a href="#" class="btn-u">گزینه دوم</a>
+                </div>
+                <div class="img-responsive col-md-3 hidden-sm hidden-xs">
+                    <img src="/Content/images/mainnewspic.png" alt="" width="450" height="450">
+                </div>
+            </div>
+        </div>
+        <!--<div class="bar"></div>-->
+        <!--=== Parallax Backgound ===-->
+        <div class="bg-image-v2 bg-image-v2-dark parallaxBg1" style="padding:0;">
+            <div class="container">
+                <div class="headline-center-v2 margin-bottom-10" style="padding:125px 0 125px 0;">
+                    <!--<h2>تجارت الکترونیک </h2>-->
+                    <!--<span class="bordered-icon"><i class="fa fa-th-large"></i></span>-->
+                    <!--<p style="padding:100px 0 50px 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam itaque laboriosam laudantium minus modi neque non odit quos rem! A ab accusamus earum fugiat illo mollitia quas repellat temporibus voluptas?</p><br><br>-->
+                    <!--<button type="button" class="btn-u btn-brd btn-brd-hover btn-u-light">دریافت مقاله </button>-->
+                </div><!--/Headline Center V2-->
+            </div><!--/container-->
+        </div>
+        <!--=== End Parallax Backgound ===-->
+        <div id="SitadPowers">
+            <div class="row content-sm">
+                <div class="col-md-10 col-md-offset-1"><h2 class="title-v2">توانمندی های سیتاد</h2></div>
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <button class="col-md-2 col-sm-5 col-xs-5 btn btn-lg btn-info ts-btn">1</button>
+                        <button class="col-md-2 col-sm-5 col-xs-5 btn btn-lg btn-info ts-btn">2</button>
+                        <button class="col-md-2 col-sm-5 col-xs-5 btn btn-lg btn-info ts-btn">3</button>
+                        <button class="col-md-2 col-sm-5 col-xs-5 btn btn-lg btn-info ts-btn">4</button>
+                        <button class="col-md-2 col-sm-5 col-xs-5 btn btn-lg btn-info ts-btn">5</button>
+                    </div>
+                </div><!--/container-->
+            </div>
+        </div>
+        <!--=== Footer Version 1 ===-->
+        <div id="contactus" class="footer-v1">
+            <div class="footer">
+                <div class="col-md-12 ">
+                    <div class="row">
+                        <!-- About -->
+                        <div class="col-md-3 md-margin-bottom-40" style="top:-30px;">
+                            <a href="#"><img id="logo-footer" class="footer-logo" src="/Content/Sitaad/img/logo2-default.png" alt=""></a>
+                            <p>درباره ما </p>
+                            <br>
+                            <p>شرکت سیتاد به عنوان گذرگاه الکترونیکی جهت ارتباط بین دستگاه های دولتی و ارائه دهنده خدمات دولتی به بخش های مختلف نقش اپراتوری را بر عهده دارد</p>
+                        </div><!--/col-md-3-->
+                        <!-- End About -->
+                        <!-- Link List -->
+                        <div class="col-md-3 md-margin-bottom-40">
+                            <div class="headline"><h2>لینکهای مفید </h2></div>
+                            <ul class="list-unstyled link-list">
+                                <li><a href="#">درباره ما </a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="#">راهکارها </a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="#">سرویس ها </a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="#">پمستندات </a><i class="fa fa-angle-right"></i></li>
+                            </ul>
+                        </div><!--/col-md-3-->
+                        <!-- End Link List -->
+                        <!-- Latest -->
+                        <div class="col-md-3 md-margin-bottom-40">
+                            <div class="posts">
+                                <div class="headline"><h2>پشتیبانی </h2></div>
+                                <ul class="list-unstyled latest-list">
+                                    <li>
+                                        <a href="#">۱</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">۲</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">۳</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--/col-md-3-->
+                        <!-- End Latest -->
+                        <!-- Address -->
+                        <div class="col-md-3 map-img md-margin-bottom-40">
+                            <div class="headline"><h2>ارتباط با ما </h2></div>
+                            <address class="md-margin-bottom-40">
+                                آدرس  <br />
+                                خیابان  <br />
+                                تلفن  <br />
+                                فاکس  <br />
+                                رایانامه  <a href="mailto:1@2.com" class="">1@@2.com</a>
+                            </address>
+                        </div><!--/col-md-3-->
+                        <!-- End Address -->
+                    </div>
+                </div>
+            </div><!--/footer-->
+            <div class="copyright">
+                <div class="container">
+                </div>
+            </div><!--/copyright-->
+            <div class="copyright-section-ts" style="background-color: black;">
+                <div class="" style="background-color: black;">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="copyright-ts">
+                                کلیه حقوق نزد شرکت  <a target="_blank" href="#">سیتاد</a> محفوظ میباشد © ۱۳۹۵
+                            </div><!--/ .cppyright-->
+                        </div>
+                        <div class="col-sm-4">
+                            <ul class="social-icons">
+                                <li><a href="#" data-original-title="Goole Plus" class="social_googleplus rounded-x"></a></li>
+                                <li><a href="#" data-original-title="instagram" class="social_instagram rounded-x"></a></li>
+                                <li><a href="#" data-original-title="Linkedin" class="social_linkedin rounded-x"></a></li>
+                                <li><a href="#" data-original-title="skype" class="social_skype rounded-x"></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="developed-ts">
+                                طراحی و ساخت توسط: <a target="_blank" href="http://www.Turbosofts.com/">TurboSofts</a>
+                            </div><!--/ .developed-->
+                        </div>
+                    </div><!--/ .row-->
+                </div><!--/ .container-->
+            </div>
+        </div>
+        <!--=== End Footer Version 1 ===-->
+    </div><!--/wrapper-->
+</div>
+<!-- JS Global Compulsory -->
+@Scripts.Render("~/Sitaad/GlobalJS","~/Sitaad/ImplementingJS","~/Sitaad/PageLevelJS","~/Sitaad/CustomizationJS")
+<!--<script src="assets/plugins/owl-carousel2/owl.carousel.min.js"></script>-->
+<!--<script src="assets/js/plugins/owl-carousel-rtl.js"></script>-->
+<!--<script src="assets/js/plugins/smoothScroll.js"></script>-->
+<script>
+    jQuery(document).ready(function () {
+        App.init();
+        App.initParallaxBg();
+        FancyBox.initFancybox();
+        //        OwlCarousel.initOwlCarousel();
+        // StyleSwitcher.initStyleSwitcher();
+        RevolutionSlider.initRSfullWidth();
+
+
+        $(function () {
+            $(".Type_News").typed({
+                strings: ["شرکت سیتاد به عنوان گذرگاه الکترونیکی جهت ارتباط بین دستگاه های دولتی و ارائه دهنده خدمات دولتی به بخش های مختلف نقش اپراتوری را بر عهده دارد ", "دولت الکترونیک خبر ۱ ", "دولت الکترونیک خبر ۱ "],
+                typeSpeed: 20,
+                loop: true,
+                backDelay: 2000,
+                contentType: 'html',
+                showCursor: false
+            });
+        });
+    });
+
+    $(function () {
+        var rightVal = -90;
+        $("#linkha").click(function () {
+            rightVal = (rightVal * -1) - 90;
+            $(this).parent().animate({ right: rightVal + 'px' }, { queue: false, duration: 500 });
+        });
+    });
+
+</script>
+<!--[if lt IE 9]>
+@Scripts.Render("~/Sitaad/IE9JS")
+<![endif]-->
+</body>
+</html>

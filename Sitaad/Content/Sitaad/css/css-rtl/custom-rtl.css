@@ -1,0 +1,5 @@
+/* Add here all your css styles (customizations) */
+@media (min-width: 1200px){
+    .container {
+        width: 1100px;
+    }}
