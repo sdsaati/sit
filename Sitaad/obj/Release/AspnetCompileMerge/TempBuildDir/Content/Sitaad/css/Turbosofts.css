@@ -1,0 +1,549 @@
+.sidelinksright{ position:absolute; top: 17%; right: -90px; text-align: center; z-index: 20; width: 30px; margin:0; padding:0; }
+
+.sidelinksleft{ position:absolute; top: 27%; left:3px; text-align: center; z-index: 20; width: 80px; margin:0; padding:0; }
+
+.sidelinksright button {margin: 2px 0 ;width:80px;height: 50px; transition: all 0.2s; text-align: center;}
+
+.sidelinksleft button {height: 70px; width: 70px;margin: 5px 0 ;left:0;
+    /*-ms-transform: rotate(-90deg); /!* IE 9 *!/*/
+    /*-webkit-transform: rotate(-90deg); /!* Chrome, Safari, Opera *!/*/
+    /*transform: rotate(-90deg);*/
+    background-color: transparent;
+    /*transition: all 0.5s;*/
+
+  }
+.sidelinksleft button img{height:65px; width: 65px;}
+.sidelinksleft .btn-u-lg, a.btn-u-lg { padding: 0;}
+.sidelinksleft button:hover {
+    /*transform: rotateY(180deg);*/
+    background-color: transparent;
+    /*background-color:#035495;*/
+    /*-ms-transform: rotate(0deg); /!* IE 9 *!/*/
+    /*-webkit-transform: rotate(0deg); /!* Chrome, Safari, Opera *!/*/
+    /*transform: rotate(+0deg);*/
+
+    }
+.sidelinksleft .btn-u {
+    background-color: transparent;
+}
+
+
+
+
+#slidecontent{
+    background-color: #e4a100;
+    width: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-topleft: 5px;
+
+}
+
+#linkha{
+    background-color: #e4a100;
+
+
+    color: #035495;
+    font-size: 18px;
+    position:relative;
+    height: 140px;
+    width: 40px;
+    top:-225px;
+    right:85px;
+    z-index:500;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-topleft: 5px;
+
+}
+.rotatets{
+    position: relative;
+    top:60px;
+    right:-45px;
+    width: 140px;
+    height: 20px;
+    transform: rotate(-90deg);
+    z-index:500;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/Content/Sitaad/fonts/IRANSansWeb.eot');
+    src: url('/Content/Sitaad/fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('/Content/Sitaad/fonts/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('/Content/Sitaad/fonts/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('/Content/Sitaad/fonts/IRANSansWeb.ttf') format('truetype');
+}
+
+body{
+    font-family:'IRANSans' ,BYekan,tahoma;
+}
+.col-centered {
+    display: inline-block;
+    float: none;}
+
+
+
+
+.service-bg {
+    width: 250px;
+    padding: 60px;
+    position: absolute;
+    top: -10px;
+    right: -100px;
+    background-color: rgba(255,255,255,0.1);
+    transform: rotate(55deg);
+    -o-transform: rotate(55deg);
+    -ms-transform: rotate(55deg);
+    -moz-transform: rotate(55deg);
+    -webkit-transform: rotate(55deg);
+}
+
+.Download{
+    text-align:center;
+}
+.Download img{
+    max-width: 90px;
+}
+.DownloadBox {
+    border-radius: 6px;!important;
+    /*height:177px;*/
+    /*height: 190px; */
+    height: 115px;
+    background-color:#f4f4f4;
+    /*background-image:url('/Content/Images/p.jpg');*/
+    text-align:right;
+    position:relative;
+    margin-top:16px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 32%;
+
+
+}
+
+.DownloadBox:hover p {
+
+    text-decoration: none;
+
+
+}
+.DownloadBox p ,.DownloadBox a {
+    color:#035495;
+    text-decoration: none;
+    text-align: justify;
+
+}
+.DownloadBox p:last-of-type  {
+    padding-bottom: 20px;
+}
+.DownloadBox .Circle{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    bottom:-18px;
+}
+.DownloadBox1{
+    /*background-color: #1abc9c;*/
+    background-color: #e4a100;
+    border-bottom: 10px solid #035495;
+    /*border-bottom: 10px solid #24E8C2;*/
+    margin-right:3px;
+    margin-left: 7px;
+}
+.DownloadBox1:hover{
+    /*box-shadow: 0 0 10px #1abc9c;*/
+    box-shadow: 0 0 10px #035495;
+}
+.DownloadBox2{
+    /*background-color: #e74c3c;*/
+    background-color: #e4a100;
+    border-bottom: 10px solid #035495;
+    /*border-bottom: 10px solid #FF8F83;*/
+    margin-right:7px;
+    margin-left: 7px;
+}
+.DownloadBox2:hover{
+    /*box-shadow: 0 0 10px #e74c3c;*/
+    box-shadow: 0 0 10px #035495;
+}
+.DownloadBox3{
+    /*background-color: #3498db; */
+    background-color: #e4a100;
+    border-bottom: 10px solid #035495;
+    /*border-bottom: 10px solid #72C6FF;*/
+    margin-right:7px;
+    margin-left: 3px;
+}
+.DownloadBox3:hover{
+    /*box-shadow: 0 0 10px #3498db;*/
+    box-shadow: 0 0 10px #035495;
+}
+.DownloadBox .DownloadLogo {
+
+    float:right;
+    padding:10px;
+    padding-left:30px;
+
+
+}
+.DownloadBox .DownloadText{
+    float:right;
+    line-height:23px;
+    margin-top:30px;
+    /*margin-bottom:20px;*/
+    padding-right:20px;
+    color:white;
+}
+
+.DownloadBox .DownloadText h2{
+    font-size:21px;
+    font-weight: normal;
+    color:#035495;
+position: relative;
+    text-align: center;
+    margin-right: 5px;
+
+
+
+}
+
+
+.Download .Clear{
+    clear:both;
+}
+
+#mokatebe,#sazman,#dolat{
+    border-bottom:1px solid lightgray;
+}
+
+
+@media only screen and (max-width:1095px) {
+    .DownloadBox {
+        width: 30%;
+    }
+    .DownloadBox .DownloadText h2{
+font-size: 18px;
+    }
+    .DownloadBox .DownloadText{
+        margin-top: 30px;
+    }
+
+}
+@media only screen and (max-width:1019px) {
+    .DownloadBox .DownloadText{
+         margin-top: 10px;
+     }
+}
+
+@media only screen and (max-width:885px) {
+    .DownloadBox .DownloadLogo{
+        display: none;
+    }
+    .DownloadBox .DownloadText{
+        width: 90%;
+    }
+    .DownloadBox {
+        height: 100px;
+    }
+}
+@media only screen and (max-width:485px) {
+    .DownloadBox .DownloadLogo{
+        display: none;
+    }
+    .DownloadBox .DownloadText{
+        padding:5px;
+        width: 90%;
+    }
+    .DownloadBox {
+        height: 125px;
+    }
+}
+@media only screen and (max-width:460px) {
+    .DownloadBox {
+        width: 25%;!important;
+        height:150px;
+    }
+    .DownloadBox .DownloadLogo{
+        display: none;
+    }
+    .DownloadBox .DownloadText{
+        width: 99%;
+    }
+
+}
+@media only screen and (max-width:380px) {
+    .DownloadBox {
+        width: 28%;!important;
+        height:auto;
+    }
+
+    .DownloadBox .DownloadLogo{
+        display: none;
+    }
+
+}
+
+
+
+.bar{
+    margin-top:15px;
+    margin-bottom:5px;
+    width:100%;
+    height:8px;
+    background-image:url(/Content/Images/bar.png);
+}
+
+
+
+.News{
+    /*width:100%;*/
+    background-color:#1d66ab;
+    margin:16px auto 0 auto;
+    border-bottom:3px solid #4cb3ff;
+    padding-bottom:2px;
+    position:relative;
+    height: 40px;
+
+
+}
+.News .Title {
+    position:absolute;
+    right: 8px;
+    top: 5px;
+
+}
+
+.News .newsarchive {
+    position:absolute;
+    left: 8px;
+    top: 5px;
+
+}
+.News .newsarchive.btn {
+    height: 30px;
+    font-size: 11px;
+}
+
+.News .Title a {
+    background: url('/Content/Images/news.png') no-repeat center center;
+    display: block;
+    width: 80px;
+    height: 30px;
+    font-family: 'IRANSans' ,BYekan,tahoma;
+
+    font-size: 11px;
+    font-weight: bold;
+    color: #696969;
+}
+.News .Title a span{
+    line-height: 30px;
+    padding-right: 6px;
+}
+.News .NewsDiv {
+    /*margin-right: 85px;*/
+    margin-top:7px;
+    font-family: 'IRANSans' ,BYekan,tahoma;
+    color:white;
+    height:23px;
+    overflow:hidden;
+
+}
+.Type_News , .Type_News a{
+    color:white;
+    font-family:'IRANSans' ,BYekan,tahoma;
+    font-size:13px;
+    /*margin-right:20px;*/
+    background-position:right center;
+    background-repeat:no-repeat;
+    /*padding-right:18px;*/
+
+}
+.Type_News a:hover{
+    color:#e8e8e8;
+}
+.News{
+    position:relative;
+}
+
+
+
+
+.ts-btn{
+    margin-right:3%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+
+/*Copyright Section*/
+.copyright-section-ts {
+    z-index: 1;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    padding: 15px 0 10px;
+    color: #C7C7C7;
+}
+
+.copyright-section-ts a {
+    color:#31A5FF;
+}
+.copyright-section-ts a:hover {
+    color:#70C1FF;
+}
+
+
+
+
+.copyright-section-ts ul.social-icons li {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.copyright-section-ts i.back-to-top {
+    /*left: 50%;*/
+    right:10px;
+    top: -80px;
+    /*color: #72c02c;*/
+    color: #31A5FF;
+    font-size: 20px;
+    background: rgba(0,0,0,.5);
+    padding: 8px 10px;
+    margin-left: -15px;
+    position: absolute;
+    border-radius: 50%;
+    transition: all 2s ;
+}
+
+.copyright-section-ts i.back-to-top:hover {
+    /*color: #C1EF98;*/
+    color: #80C7FF;
+    background: transparent;
+
+}
+
+.copyright-ts, .developed-ts{
+    margin-top:5px;
+}
+
+.smalllogo{
+
+    height:40px;!important;
+}
+
+.centerlogin{
+    margin-top: 20px;!important;
+}
+
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+.tp-banner-container{
+    min-height: 250px; max-height: 450px;
+
+}
+.turbosoftsmain
+{
+    max-width: 1120px;
+    background-color: #ffffff;
+    margin: 13px auto 33px auto;
+    border: 1px solid #969696;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding:10px ;
+    border-radius: 10px;
+
+}
+.panel-group.acc-v1 ul{
+    padding:0;
+}
+.logotext{
+    position: absolute; top:-35px;margin-right: 150px;right:0;
+}
+
+#rightlinkslogo{
+    display: none;
+}
+
+
+/*mediaqueeeryyyyyyyyyyyyyyyyyyyyyyyyyyyyyy*/
+
+
+
+@media only screen and (max-width: 1280px) {
+    .sidelinksleft {
+        top: 15px;
+        z-index: 50000;
+        width: 150px;
+        margin-left: 4.5%;
+    }
+
+    .sidelinksleft button {
+        height: 50px; width: 50px;
+        margin: 5px 0;
+    }
+    .sidelinksleft button img{height:40px; width: 40px;}
+
+
+    .sidelinksright {
+        z-index:500;
+        top: 40px;
+    }
+    #linkha{
+        top:-334px;
+        z-index:500;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+    .rotatets{
+        width: auto;
+    }
+    #rightlinkslogo{
+     display: block;
+        position: relative;
+        top:-10px;
+        right:2px;
+
+    }
+
+    #rightlinkstext{
+        display: none;
+    }
+    .logoimg{
+        padding-right: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
+
+    .sidelinksleft {
+        top: 15px;
+        z-index: 500;
+        width: 150px;
+        margin-left: -5px;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+
+    .sidelinksleft button {
+        height: 50px; width: 50px;
+        margin: 5px 0;
+    }
+    .sidelinksleft button img{height:40px; width: 40px;}
+}

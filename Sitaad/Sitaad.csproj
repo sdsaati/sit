@@ -173,6 +173,16 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\bar.png" />
+    <Content Include="Content\Images\BG\bg1.jpg" />
+    <Content Include="Content\Images\Icon\ico1.png" />
+    <Content Include="Content\Images\Icon\ico2.png" />
+    <Content Include="Content\Images\Icon\ico3.png" />
+    <Content Include="Content\Images\mainnewspic.png" />
+    <Content Include="Content\Images\news.png" />
+    <Content Include="Content\Images\p.jpg" />
+    <Content Include="Content\Images\support.png" />
+    <Content Include="Content\Images\tools.png" />
     <Content Include="Content\Sitaad\css\css-rtl\app-rtl.css" />
     <Content Include="Content\Sitaad\css\css-rtl\blocks-rtl.css" />
     <Content Include="Content\Sitaad\css\css-rtl\custom-rtl.css" />
@@ -188,16 +198,6 @@
     <Content Include="Content\Sitaad\css\css-rtl\theme-skins\dark.css" />
     <Content Include="Content\Sitaad\css\plugins\style-switcher.css" />
     <Content Include="Content\Sitaad\css\Turbosofts.css" />
-    <Content Include="Content\Images\bar.png" />
-    <Content Include="Content\Images\BG\bg1.jpg" />
-    <Content Include="Content\Images\Icon\ico1.png" />
-    <Content Include="Content\Images\Icon\ico2.png" />
-    <Content Include="Content\Images\Icon\ico3.png" />
-    <Content Include="Content\Images\mainnewspic.png" />
-    <Content Include="Content\Images\news.png" />
-    <Content Include="Content\Images\p.jpg" />
-    <Content Include="Content\Images\support.png" />
-    <Content Include="Content\Images\tools.png" />
     <Content Include="Content\Sitaad\img\bg\7.jpg" />
     <Content Include="Content\Sitaad\img\bg\parallax1.jpg" />
     <Content Include="Content\Sitaad\img\bg\parallax2.jpg" />
@@ -254,7 +254,7 @@
     <Content Include="Content\Sitaad\plugins\back-to-top.js" />
     <Content Include="Content\Sitaad\plugins\bootstrap\css\bootstrap-rtll.css" />
     <Content Include="Content\Sitaad\plugins\bootstrap\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\Sitaad\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\Sitaad\plugins\bootstrap\js\bootstrapp.js" />
     <Content Include="Content\Sitaad\plugins\bootstrap\js\npm.js" />
     <Content Include="Content\Sitaad\plugins\fancybox\source\blank.gif" />
     <Content Include="Content\Sitaad\plugins\fancybox\source\fancybox_loading%402x.gif" />
@@ -275,8 +275,8 @@
     <Content Include="Content\Sitaad\plugins\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Sitaad\plugins\html5shiv.js" />
     <Content Include="Content\Sitaad\plugins\jquery.parallax.js" />
-    <Content Include="Content\Sitaad\plugins\jquery\jquery-migrate.min.js" />
-    <Content Include="Content\Sitaad\plugins\jquery\jquery.min.js" />
+    <Content Include="Content\Sitaad\plugins\jquery\jquery-migratee.js" />
+    <Content Include="Content\Sitaad\plugins\jquery\jquery.js" />
     <Content Include="Content\Sitaad\plugins\line-icons\fonts\Simple-Line-Icons.dev.svg" />
     <Content Include="Content\Sitaad\plugins\line-icons\fonts\Simple-Line-Icons.svg" />
     <Content Include="Content\Sitaad\plugins\line-icons\icons-lte-ie7.js" />
@@ -362,7 +362,7 @@
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\assets\small_right_boxed.png" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\assets\timer.png" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\assets\timerdot.png" />
-    <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\assets\transparent.jpg" />
+    <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\assets\transparent.png" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\assets\white50.png" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\css\settings-ie8.css" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\css\settings.css" />
@@ -374,8 +374,8 @@
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\images\gradient\g40.png" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.enablelog.js" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.revolution.js" />
-    <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.revolution.min.js" />
-    <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.tools.min.js" />
+    <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.revolutionn.js" />
+    <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.toolss.js" />
     <Content Include="Content\Sitaad\plugins\smoothScroll.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -433,6 +433,7 @@
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\font\revicons.eot" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\font\revicons.ttf" />
     <Content Include="Content\Sitaad\plugins\revolution-slider\rs-plugin\font\revicons.woff" />
+    <None Include="Properties\PublishProfiles\SitDemo.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\Projects\Sitaad\Sitaad\Sitaad\Sitaad.csproj">
+    <ProjectReference Include="..\Sitaad\Sitaad.csproj">
       <Project>{5919C325-4BDB-4914-B214-E25653CE0DA2}</Project>
       <Name>Sitaad</Name>
     </ProjectReference>
