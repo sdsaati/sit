@@ -47,9 +47,9 @@ namespace Sitaad
             bundles.Add(new StyleBundle("~/Sitaad/owlCSS").Include(
                       "~/Content/Sitaad/plugins/owl-carousel2/assets/owl.carousel.css"));
             bundles.Add(new StyleBundle("~/Sitaad/IE9CSS").Include(
-                      "~/Content/Sitaad/plugins/revolution-slider/rs-plugin/css/settings.css"));
-            bundles.Add(new StyleBundle("~/Sitaad/StyleSwitcherCSS").Include(
                       "~/Content/Sitaad/plugins/revolution-slider/rs-plugin/css/settings-ie8.css"));
+            bundles.Add(new StyleBundle("~/Sitaad/RevolutionSliderCSS").Include(
+                      "~/Content/Sitaad/plugins/revolution-slider/rs-plugin/css/settings.css"));
             bundles.Add(new StyleBundle("~/Sitaad/TurbosoftsCSS").Include(
                       "~/Content/Sitaad/css/Turbosofts.css"));
             bundles.Add(new StyleBundle("~/Sitaad/ThemeCSS").Include(
