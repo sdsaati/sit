@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitaad", "Sitaad\Sitaad.csproj", "{5919C325-4BDB-4914-B214-E25653CE0DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitaad.Tests", "C:\Users\Saeid\Documents\Visual Studio 2013\Projects\Sitaad\Sitaad.Tests\Sitaad.Tests.csproj", "{56BBDE06-B93C-445A-A564-21F44B49F25A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitaad.Tests", "Sitaad.Tests\Sitaad.Tests.csproj", "{56BBDE06-B93C-445A-A564-21F44B49F25A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
